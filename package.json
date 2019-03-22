@@ -1,0 +1,22 @@
+{
+  "name": "i18next-locize-webpack-plugin",
+  "version": "1.0.0",
+  "description": "A plugin for fetching language files from locize via webpack",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "keywords": [
+    "webpack",
+    "locize",
+    "plugin"
+  ],
+  "author": "Raza Gill",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.4.0",
+    "@babel/preset-env": "7.4.2",
+    "webpack": "4.29.6"
+  }
+}
